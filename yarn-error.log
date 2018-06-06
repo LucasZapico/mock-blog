@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js add ejs
+
+PATH: 
+  /Users/lucaszapico/.rvm/gems/ruby-2.1.6/bin:/Users/lucaszapico/.rvm/gems/ruby-2.1.6@global/bin:/Users/lucaszapico/.rvm/rubies/ruby-2.1.6/bin:/Users/lucaszapico/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/anaconda3/bin:/usr/X11/bin:/usr/local/share/npm/bin/:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/lucaszapico/.rvm/gems/ruby-2.1.6/bin:/Users/lucaszapico/.rvm/gems/ruby-2.1.6@global/bin:/Users/lucaszapico/.rvm/rubies/ruby-2.1.6/bin:/Users/lucaszapico/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/anaconda3/bin:/usr/X11/bin:/usr/local/share/npm/bin/:/Library/Frameworks/Python.framework/Versions/3.6/bin:./node_modules/.bin:/usr/local/mysql-shell/bin:/usr/local/mysql/bin:/Users/lucaszapico/.rvm/bin:/usr/local/bin:./node_modules/.bin:/usr/local/mysql-shell/bin:/usr/local/mysql/bin:/Users/lucaszapico/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "express-ejs-foundation",
+    "version": "1.0.0",
+    "description": "A mock website build with ejs and foundation ",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LucasZapico/mock-blog.git"
+    },
+    "keywords": [
+      "playground",
+      "express",
+      "foundation"
+    ],
+    "author": "Lucas",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/LucasZapico/mock-blog/issues"
+    },
+    "homepage": "https://github.com/LucasZapico/mock-blog#readme",
+    "dependencies": {
+      "express": "^4.16.3",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/lucaszapico/Documents/center/playground/development/web_projects_playground/web_design/express-ejs-foundation/package.json: Unexpected token } in JSON at position 633
+      at Object.parse (native)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:1036:59
+      at next (native)
+      at step (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:109:13

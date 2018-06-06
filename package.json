@@ -1,0 +1,35 @@
+{
+  "name": "express-ejs-foundation",
+  "version": "1.0.0",
+  "description": "A mock website build with ejs and foundation ",
+  "main": "/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app/index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasZapico/mock-blog.git"
+  },
+  "keywords": [
+    "playground",
+    "express",
+    "foundation"
+  ],
+  "author": "Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasZapico/mock-blog/issues"
+  },
+  "homepage": "https://github.com/LucasZapico/mock-blog#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
